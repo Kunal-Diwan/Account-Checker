@@ -1,0 +1,25 @@
+{
+    "name": "Account-Checker",
+    "description": "Checks Accounts and send results as telegram message",
+    "keywords": [
+        "Account-Checker",
+        "python",
+        "telegram",
+        "telegram-bot",
+        "Exploit"
+    ],
+    "repository": "https://github.com/DevelopedBots/Account-Checker",
+    "success_url": "/",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Get your token from @BotFather and paste it here."
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/python"
+}
