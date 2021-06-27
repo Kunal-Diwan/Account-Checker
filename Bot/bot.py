@@ -29,7 +29,7 @@ def start(update, context):
     print(info)
     chat_id = info.id
     userid= info['username']
-    text = f'Welcome @{userid}, I am account checker bot - I can help you to check premium accounts for free, to know more use /help or read the telegraph below. This bot is provided for educational use only, any misuse then you should be responsible'
+    text = f'Welcome @{userid}, I am account check Helper - I can help you to check premium accounts for free, to know more use /help or read the telegraph below. This bot is provided for educational use only, any misuse then you should be responsible'
     Sendmessage(chat_id, text, reply_markup=InlineKeyboardMarkup(startmessage))
     return
 
