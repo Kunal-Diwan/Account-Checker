@@ -13,13 +13,11 @@ if any premium plans are subscribed by the user. And reply to you in telegram an
 Yes, but NO. I don't use any proxy servers as you can see in the code. Some sites have security like you can't login after 3-5 unsuccessful attempts. Or may even change their security making it bit stronger and hard. So its better not to do so.
 
 # Available sites are
-Altbalaji, Hoichoi, Voot and Zee 5. Could easily expand but don't have that much time. Anybody want to contribute can check the Bot folder and Checkers folder or view any other checkers file and make a checker for new site and sent pull request, I will be glad to accept it.
+Altbalaji, Hoichoi, Sun Nxt, Voot and Zee 5. Could easily expand but don't have that much time. Anybody want to contribute can check the Bot folder and Checkers folder or view any other checkers file and make a checker for new site and sent pull request, I will be glad to accept it.
 
 # Deployment
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-# Credits :- 
-
-Full credits goes to me - [@kunaldiwan](https://telegram.dog/kunaldiwan)
+##### Powered By [@DevelopedBots](https://tx.me/DevelopedBots) 💖
