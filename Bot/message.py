@@ -8,14 +8,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-bot_token = os.environ.get('TG_BOT_TOKEN')
+bot_token = os.environ.get("5441864008:AAHfgKuZCanVPpvG8sHNjwcuOkk7x10cwuU")
 bot = Bot(bot_token)
 
 def Sendmessage(chat_id, text,reply_markup=None):
     try:
         message = bot.send_message(chat_id=chat_id, text=text, reply_to_message_id=None,parse_mode="HTML", reply_markup=reply_markup)
-        msg_id = message.message_id
-        return msg_id
+        return message.message_id
     except Exception as e:
         logger.info(e)
         raise UserWarning
